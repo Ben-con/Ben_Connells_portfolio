@@ -11,11 +11,14 @@ body{
 .hero-img{
     border-radius: 50%;
 }
+.hero-padding{
+    padding-top: 5em;
+    margin-bottom: 8em;
+}
 .about-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 4em;
 }
 .about-header{
     flex-basis: 100%;
