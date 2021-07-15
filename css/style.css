@@ -5,12 +5,17 @@
 body{
     background-color: #E8EFF7;
 }
+.navbar{
+    border-bottom: 4px grey solid;
+}
+.hero-img{
+    border-radius: 50%;
+}
 .about-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 4em;
-    justify-content: space-around;
 }
 .about-header{
     flex-basis: 100%;
@@ -23,36 +28,41 @@ body{
     text-align: center;
     width: 30%;
     border: black 1px solid;
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
     
 }
 .about-photo{
     height:auto;
     width: 100%;
+    padding: 1em;
     
 }
 .about-p{
-    display: flex;
-    align-content: center;
-    justify-content: center;
+    margin: 0 auto;
+    padding-top: 8%;
+    width: 80%;
+    
 }
 
 .photo-container{
-    width: 40%;
+    width: 35%;
+    margin-left: 4em;
 }
 .about-text{
-    display: flex;
-    width: 40%;
-    align-content: center;
-    
+    margin-left: .5em;
+    width: 55%;
   
 }
-.contacts p{
-    text-align: center;
-    margin-bottom: 0;
-    margin-top: .5em;
-    color: blue;
+
+.project-header , .skills-header{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    border-top: 5px black solid;
+    padding: .5em;
+    margin-bottom: 1.5em;
 }
+
 .carousel-con{
     width: 75%;
     margin: 0 auto;
@@ -64,9 +74,11 @@ body{
     color: lightgray;
 }
 
-.navbar{
-    border-bottom: 4px grey solid;
+.skills-card{
+    margin:0 auto;
 }
+
+
 
 .contacts{
     display: flex;
@@ -75,6 +87,12 @@ body{
 .contact-header{
     margin: 0 auto;
     color: white;
+}
+.contacts p{
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: .5em;
+    color: blue;
 }
 .contact-list{
     display: flex;
