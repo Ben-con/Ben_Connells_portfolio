@@ -4,19 +4,24 @@ body{
 }
 .about-container{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction:  column;
+    
 }
 .about-h1{
     text-align: center;
 }
 .about-photo{
-    height:10%;
-    width: 10%;
+    height:auto;
+    width: 100%;
 
 }
+
 .photo-container{
-    flex-basis: 30%;
+    width: 40%;
+    
+}
+.about-text{
+    width: 50%;
 }
 .contacts p{
     text-align: center;
