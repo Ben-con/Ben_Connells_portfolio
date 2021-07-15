@@ -1,28 +1,51 @@
 
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: #E8EFF7;
 }
 .about-container{
     display: flex;
-    flex-direction:  column;
-    
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 4em;
+    justify-content: space-around;
+}
+.about-header{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    border-top: 5px black solid;
+    padding-top: .5em;
 }
 .about-h1{
     text-align: center;
+    width: 30%;
+    border: black 1px solid;
+    margin-bottom: 1.5em;
+    
 }
 .about-photo{
     height:auto;
     width: 100%;
-
+    
+}
+.about-p{
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 .photo-container{
     width: 40%;
-    
 }
 .about-text{
-    width: 50%;
-    text-align: center;
+    display: flex;
+    width: 40%;
+    align-content: center;
+    
+  
 }
 .contacts p{
     text-align: center;
@@ -30,6 +53,17 @@ body{
     margin-top: .5em;
     color: blue;
 }
+.carousel-con{
+    width: 75%;
+    margin: 0 auto;
+}
+.car-text-box{
+    background-color: black;
+}
+.car-text{
+    color: lightgray;
+}
+
 .navbar{
     border-bottom: 4px grey solid;
 }
