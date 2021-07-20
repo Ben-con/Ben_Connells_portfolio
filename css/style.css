@@ -5,6 +5,8 @@
 body{
     background-color: #E8EFF7;
 }
+
+/* Main Page css start ---------------------------------------------------------------- */
 .navbar{
     border-bottom: 4px grey solid;
 }
@@ -84,6 +86,57 @@ body{
     display: flex;
     justify-content: center;
 }
+
+/* Main page css end ---------------------------------------------------------------- */
+/* Sub Pages css start ---------------------------------------------------------------- */
+
+.sub-pages-header{
+    text-align: center;
+    margin-bottom: 3rem ;
+}
+
+.project-imformation{
+    align-content: center;
+}
+.project-skills-used{
+    display: flex;
+    flex-direction: column;
+}
+.skills-used-list{
+    justify-content: space-around;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 1em;
+}
+.skills-used-li{
+    padding: .5em;
+}
+.skills-used-header{
+    text-align: center;
+    margin-top: .5em;
+}
+.sub-pages-p{
+    margin-top: 2em;
+    margin-bottom: .5em;
+    margin-left: .3em;
+}
+.no-show{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* Sub Pages css end ---------------------------------------------------------------- */
+
 .contacts{
     display: flex;
     flex-direction: column;
@@ -167,6 +220,9 @@ body{
     .carousel-con{
         width: 75%;
         margin: 0 auto;
+    }
+    .no-show{
+        display: flex;
     }
 
 }
